@@ -34,3 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Proses Tambahan
+        run: date
+
+      - name: Jalankan file Python
+        run: python nama.py
+
+      - name: Secrets Variable
+        run: echo ${{ secrets.NAMA_LENGKAP }}
